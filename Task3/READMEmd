@@ -1,1 +1,115 @@
 
+# 🌸 Flower Image Classification using CNN
+
+## 📌 Project Overview
+
+This project implements a **Convolutional Neural Network (CNN)** for flower image classification using TensorFlow and Keras.  
+The model is trained on a flower image dataset containing different flower categories such as:
+
+- Daisy
+- Dandelion
+- Roses
+- Sunflowers
+- Tulips
+
+The project demonstrates the application of **Deep Learning** and **Computer Vision** techniques for image classification tasks.
+
+---
+
+# 🚀 Technologies Used
+
+- Python
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+
+---
+
+# 📂 Dataset
+
+Dataset used:
+TensorFlow Flower Photos Dataset
+
+The dataset contains real flower images categorized into multiple classes.
+
+Dataset is automatically downloaded using TensorFlow utilities.
+
+---
+
+# 🧠 Deep Learning Concepts Used
+
+- Convolutional Neural Networks (CNN)
+- Convolution Layers
+- MaxPooling Layers
+- Flatten Layer
+- Dense Layers
+- Softmax Activation
+- Image Normalization
+
+---
+
+# ⚙️ Project Workflow
+
+1. Import required libraries
+2. Download and load flower image dataset
+3. Preprocess and normalize images
+4. Build CNN architecture
+5. Train the CNN model
+6. Evaluate model performance
+7. Visualize accuracy and loss graphs
+8. Predict flower categories
+
+---
+
+# 🏗️ CNN Architecture
+
+The CNN model consists of:
+
+- Conv2D Layers
+- MaxPooling2D Layers
+- Flatten Layer
+- Dense Hidden Layer
+- Output Layer with Softmax Activation
+
+---
+
+# 📊 Model Evaluation
+
+The model performance was evaluated using:
+
+- Training Accuracy
+- Validation Accuracy
+- Loss Graph
+- Accuracy Graph
+
+---
+
+# 🔍 Key Insights
+
+- CNN successfully extracted important image features.
+- The model learned flower shape, texture, and color patterns effectively.
+- Image normalization improved training performance.
+- Deep learning proved effective for image classification tasks.
+
+---
+
+# 📈 Output
+
+The model predicts flower categories from input images with good accuracy.
+
+Example categories:
+- Rose 🌹
+- Tulip 🌷
+- Sunflower 🌻
+- Daisy 🌼
+
+---
+
+# 📁 Project Structure
+
+```text
+Task3/
+│
+├── Task3_Image_Classification_Model.ipynb
+├── README.md
